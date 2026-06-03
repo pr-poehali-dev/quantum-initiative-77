@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Get messages",
+      "method": "GET",
+      "path": "/?channel=general",
+      "expectedStatus": 200,
+      "bodyMatcher": "none"
+    }
+  ]
+}

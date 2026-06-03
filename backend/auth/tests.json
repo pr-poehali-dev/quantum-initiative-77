@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Send OTP",
+      "method": "POST",
+      "path": "/",
+      "body": {"action": "send_otp", "phone": "+79001234567"},
+      "expectedStatus": 200,
+      "bodyMatcher": "none"
+    }
+  ]
+}
