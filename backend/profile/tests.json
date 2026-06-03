@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Get profile not found",
+      "method": "GET",
+      "path": "/?user_id=999999",
+      "expectedStatus": 404,
+      "bodyMatcher": "none"
+    }
+  ]
+}
